@@ -101,7 +101,7 @@ main {
 }
 
 .section-text > p {
-    font-size:2vw;
+    font-size:1.5vw;
 }
 
 .main-quote-section-wrapper {
@@ -188,7 +188,7 @@ footer {
 .see-more-button > a {
     text-decoration:none;
     color:black;
-    font-size:2vw;
+    font-size:1.5vw;
     font-weight:bold;
     padding:15px 30px;
 }
@@ -235,6 +235,20 @@ footer {
     .sign {
         font-size:16px;
     }
+
+    .see-more-button > a {
+        font-size:1.8vw;
+    }
+
+    .section-title {
+        font-size:3vw;
+        margin-top:0;
+    }
+    
+    .section-text > p {
+        font-size:1.8vw;
+    }
+    
 }
 
 @media (max-width:768px) {
