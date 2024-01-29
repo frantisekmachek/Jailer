@@ -4,7 +4,7 @@ body {
 }
 
 header {
-    max-width:1920px;
+    width:100%;
     margin:auto;
     background-color:#E3E3E3;
 }
@@ -15,6 +15,7 @@ header {
     padding:0px 30px;
     align-items:center;
     margin:auto;
+    max-width:1920px;
 }
 
 .header-nav {
@@ -45,7 +46,9 @@ main {
 .main-quote-section-wrapper {
     display:flex;
     justify-content:center;
-    background: url('img/robot.png') center no-repeat;
+    background: url('img/robot.png') no-repeat;
+    background-size: cover;
+    background-position: center;
     height:700px;
 }
 
@@ -80,6 +83,7 @@ main {
     gap:30px;
     padding-left:30px;
     padding-right:30px;
+    max-width:1920px;
 }
 
 .section-img {
@@ -98,8 +102,15 @@ main {
     font-size:20px;
 }
 
+.main-quote-section-wrapper {
+    display:flex;
+    justify-content: center;
+    width:100%;
+}
+
 .generic-section-wrapper {
-    max-width:1920px;
+    display:flex;
+    justify-content: center;
     padding:60px 0;
     margin:auto;
 }
@@ -109,9 +120,13 @@ main {
 }
 
 footer {
+    width:100%;
+    background-color: #E3E3E3;
+}
+
+.footer-content {
     display:flex;
     flex-direction: column;
-    background-color: #E3E3E3;
     padding:30px 30px 15px 30px;
     max-width:1920px;
     margin:auto;
@@ -255,7 +270,7 @@ footer {
         font-size:24px;
     }
 
-    footer {
+    .footer-content {
         padding:15px;
     }
 
@@ -280,4 +295,13 @@ footer {
     .see-more-button > a {
         font-size:14px;
     }
+
+    .main-quote {
+        font-size:32px;
+    }
+
+    .main-quote-origin {
+        font-size:26px;
+    }
+
 }
