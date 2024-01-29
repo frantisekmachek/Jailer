@@ -96,12 +96,12 @@ main {
 }
 
 .section-title {
-    font-size:3vw;
+    font-size:42px;
     margin-top:0;
 }
 
 .section-text > p {
-    font-size:1.5vw;
+    font-size:26px;
 }
 
 .main-quote-section-wrapper {
@@ -132,7 +132,6 @@ footer {
     padding:30px 30px 15px 30px;
     max-width:1920px;
     margin:auto;
-    box-sizing:border-box;
 }
 
 .contact-info {
@@ -188,7 +187,7 @@ footer {
 .see-more-button > a {
     text-decoration:none;
     color:black;
-    font-size:1.5vw;
+    font-size:26px;
     font-weight:bold;
     padding:15px 30px;
 }
@@ -237,16 +236,16 @@ footer {
     }
 
     .see-more-button > a {
-        font-size:1.8vw;
+        font-size:22px;
     }
 
     .section-title {
-        font-size:3vw;
+        font-size:32px;
         margin-top:0;
     }
     
     .section-text > p {
-        font-size:1.8vw;
+        font-size:22px;
     }
     
 }
