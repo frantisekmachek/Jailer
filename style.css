@@ -299,7 +299,8 @@ footer {
     }
 
     .section-title {
-        font-size:26px;
+        margin-top:10px;
+        font-size:30px;
     }
     
     .section-text > p {
