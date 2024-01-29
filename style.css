@@ -113,6 +113,9 @@ footer {
     flex-direction: column;
     background-color: #E3E3E3;
     padding:30px 30px 15px 30px;
+    max-width:1920px;
+    margin:auto;
+    box-sizing:border-box;
 }
 
 .contact-info {
@@ -207,6 +210,20 @@ footer {
     }
 
     .see-more-button > a {
+        font-size:16px;
+    }
+
+    .contact-info {
+        font-size:18px;
+    }
+    
+    .contact-info > h2 {
+        margin-top:0;
+        margin-bottom:15px;
+        font-size:22px;
+    }
+
+    .sign {
         font-size:16px;
     }
 }
