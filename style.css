@@ -1,0 +1,266 @@
+body {
+    margin:0;
+    font-family:Arial;
+}
+
+header {
+    max-width:1920px;
+    margin:auto;
+    background-color:#E3E3E3;
+}
+
+.header-centered {
+    display:grid;
+    grid-template-columns:auto auto max-content;
+    padding:0px 30px;
+    align-items:center;
+    margin:auto;
+}
+
+.header-nav {
+    grid-column:3/4;
+}
+
+.header-nav > ul {
+    display:flex;
+    width:max-content;
+    gap:30px;
+    padding:0;
+    list-style-type:none;
+}
+
+.header-nav > ul > li {
+    display:inline;
+    font-weight:bold;
+}
+
+.hamburger-menu {
+    display:none;
+}
+
+main {
+    width:100%;
+}
+
+.main-quote-section-wrapper {
+    display:flex;
+    justify-content:center;
+    background: url('img/robot.png') center no-repeat;
+    height:700px;
+}
+
+.main-quote-section {
+    color:white;
+    margin:200px 0;
+}
+
+.main-quote {
+    font-size:40px;
+    max-width:540px;
+}
+
+.main-quote-origin {
+    font-size:34px;
+    text-align:left;
+}
+
+.torghast-section-wrapper {
+    display:flex;
+    background-color:#E3E3E3;
+    width:100%;
+}
+
+.arbiter-section-wrapper {
+    background-color: #E3E3E3;
+}
+
+.generic-section {
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:30px;
+    padding-left:30px;
+    padding-right:30px;
+}
+
+.section-img {
+    width:100%;
+    height:auto;
+    /**
+    box-shadow: 5px 5px 5px black;
+    **/
+}
+
+.section-title {
+    font-size:36px;
+}
+
+.section-text > p {
+    font-size:20px;
+}
+
+.generic-section-wrapper {
+    max-width:1920px;
+    padding:60px 0;
+    margin:auto;
+}
+
+.maw-section-wrapper, .zereth-section-wrapper {
+    background-color:#D9D9D9;
+}
+
+footer {
+    display:flex;
+    flex-direction: column;
+    background-color: #E3E3E3;
+    padding:30px 30px 15px 30px;
+}
+
+.contact-info {
+    font-size:20px;
+}
+
+.contact-info > h2 {
+    margin-top:0;
+    margin-bottom:15px;
+    font-size:24px;
+}
+
+.contact-info-content {
+    display:grid;
+    grid-template-columns: auto auto;
+    grid-template-rows:auto auto;
+    align-items:center;
+    justify-content:center;
+    column-gap: 5px;
+    float:left;
+}
+
+.sign {
+    text-decoration:none;
+    color:black;
+    font-weight:bold;
+    margin:auto;
+    transition: 0.3s ease;
+    width:max-content;
+    font-size:16px;
+}
+
+.sign:hover {
+    color:dodgerblue;
+}
+
+.contact-info-content > p {
+    margin:0;
+}
+
+.see-more-button {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:#A2A0A0;
+    width:max-content;
+    margin-top:50px;
+    /**
+    box-shadow: 5px 5px 5px black;
+    **/
+}
+
+.see-more-button > a {
+    text-decoration:none;
+    color:black;
+    font-size:20px;
+    font-weight:bold;
+    padding:15px 30px;
+}
+
+.see-more-button:hover {
+    background-color:#797979;
+}
+
+@media (max-width:1023px) {
+    .hamburger-menu {
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        grid-column:3/4;
+    }
+
+    .header-nav {
+        display:none;
+    }
+
+    .section-text > p {
+        font-size:16px;
+    }
+
+    .section-title {
+        font-size:26px;
+    }
+
+    .main-quote-section {
+        padding-left:30px;
+        padding-right:30px;
+    }
+
+    .see-more-button {
+        margin-top:20px;
+    }
+
+    .see-more-button > a {
+        font-size:16px;
+    }
+}
+
+@media (max-width:768px) {
+    .generic-section {
+        grid-template-columns:1fr;
+        grid-template-rows:auto auto;
+    }
+
+    .header-centered, .generic-section {
+        padding-left:15px;
+        padding-right:15px;
+    }
+
+    .generic-section-wrapper {
+        padding:30px 0;
+    }
+
+    .generic-section {
+        gap:15px;
+    }
+
+    header {
+        height:60px;
+    }
+
+    .header-centered > h1 {
+        font-size:24px;
+    }
+
+    footer {
+        padding:15px;
+    }
+
+    .contact-info {
+        font-size:16px;
+    }
+    
+    .contact-info > h2 {
+        margin-top:0;
+        margin-bottom:10px;
+        font-size:20px;
+    }
+
+    .sign {
+        font-size:14px;
+    }
+
+    .see-more-button {
+        margin-top:20px;
+    }
+
+    .see-more-button > a {
+        font-size:14px;
+    }
+}
