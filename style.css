@@ -84,6 +84,7 @@ main {
     padding-left:30px;
     padding-right:30px;
     max-width:1920px;
+    align-items:center;
 }
 
 .section-img {
@@ -95,11 +96,12 @@ main {
 }
 
 .section-title {
-    font-size:36px;
+    font-size:3vw;
+    margin-top:0;
 }
 
 .section-text > p {
-    font-size:20px;
+    font-size:2vw;
 }
 
 .main-quote-section-wrapper {
@@ -186,7 +188,7 @@ footer {
 .see-more-button > a {
     text-decoration:none;
     color:black;
-    font-size:20px;
+    font-size:2vw;
     font-weight:bold;
     padding:15px 30px;
 }
@@ -205,14 +207,6 @@ footer {
 
     .header-nav {
         display:none;
-    }
-
-    .section-text > p {
-        font-size:16px;
-    }
-
-    .section-title {
-        font-size:26px;
     }
 
     .main-quote-section {
@@ -304,4 +298,15 @@ footer {
         font-size:26px;
     }
 
+    .section-title {
+        font-size:26px;
+    }
+    
+    .section-text > p {
+        font-size:20px;
+    }
+
+    .see-more-button > a {
+        font-size:20px;
+    }
 }
