@@ -46,7 +46,7 @@ main {
 .main-quote-section-wrapper {
     display:flex;
     justify-content:center;
-    background: url('img/robot.png') no-repeat;
+    background: url('img/oribos.jpg') no-repeat;
     background-size: cover;
     background-position: center;
     height:700px;
