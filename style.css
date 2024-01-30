@@ -5,6 +5,7 @@ body {
 
 header {
     width:100%;
+    height:80px;
     margin:auto;
     background-color:#E3E3E3;
 }
@@ -16,6 +17,7 @@ header {
     align-items:center;
     margin:auto;
     max-width:1920px;
+    height:100%;
 }
 
 .header-nav {
@@ -63,7 +65,7 @@ main {
 }
 
 .main-quote-origin {
-    font-size:34px;
+    font-size:30px;
     text-align:left;
 }
 
@@ -159,7 +161,7 @@ footer {
     color:black;
     font-weight:bold;
     margin:auto;
-    transition: 0.3s ease;
+    transition: color 0.3s ease;
     width:max-content;
     font-size:16px;
 }
@@ -192,11 +194,47 @@ footer {
     padding:15px 30px;
 }
 
+.nav-item > a {
+    text-decoration:none;
+    color:black;
+}
+
 .see-more-button:hover {
     background-color:#797979;
 }
 
+
+.header-centered > h1 {
+    display:flex;
+    align-items:center;
+    margin:0;
+    width:max-content;
+}
+
+.header-centered > h1 > a {
+    color:black;
+    text-decoration: none;
+}
+
+.nav-item > a, .header-centered > h1 > a {
+    transition: color 0.3s ease;
+}
+
+.nav-item:hover > a {
+    color:#696969;
+}
+
+.header-centered > h1:hover > a {
+    color:#696969;
+}
+
+
 @media (max-width:1023px) {
+
+    header {
+        height:60px;
+    }
+
     .hamburger-menu {
         display:flex;
         justify-content:center;
@@ -247,14 +285,19 @@ footer {
     .section-text > p {
         font-size:22px;
     }
-    
-}
 
-@media (max-width:768px) {
+    .header-centered > h1 > a {
+        font-size:24px;
+    }
+
     .generic-section {
         grid-template-columns:1fr;
         grid-template-rows:auto auto;
     }
+    
+}
+
+@media (max-width:768px) {
 
     .header-centered, .generic-section {
         padding-left:15px;
@@ -273,8 +316,8 @@ footer {
         height:60px;
     }
 
-    .header-centered > h1 {
-        font-size:24px;
+    .header-centered > h1 > a {
+        font-size:20px;
     }
 
     .footer-content {
