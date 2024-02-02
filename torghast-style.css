@@ -4,7 +4,7 @@
 }
 
 .nav-item:nth-child(1) > a {
-    text-decoration:underline;
+    text-decoration:underline 2px;
 }
 
 .sanctum-section-wrapper {
