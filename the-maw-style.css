@@ -10,3 +10,15 @@
 .korthia-section-wrapper {
     background-color: #D9D9D9;
 }
+
+.map-section {
+    grid-template-columns:1fr;
+}
+
+.map-section-wrapper {
+    background-color: #E3E3E3;
+}
+
+footer {
+    background-color: #D9D9D9;
+}
