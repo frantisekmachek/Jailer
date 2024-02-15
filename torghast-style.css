@@ -10,3 +10,9 @@
 .sanctum-section-wrapper {
     background-color:#D9D9D9;
 }
+
+@media (max-width:1023px) {
+    .nav-item:nth-child(1) > a {
+        text-decoration:none;
+    }
+}
