@@ -3,10 +3,6 @@
     align-items:center;
 }
 
-.nav-item:nth-child(2) > a {
-    text-decoration:underline 2px;
-}
-
 .korthia-section-wrapper {
     background-color: #D9D9D9;
 }
@@ -21,10 +17,4 @@
 
 footer {
     background-color: #D9D9D9;
-}
-
-@media (max-width:1023px) {
-    .nav-item:nth-child(2) > a {
-        text-decoration:none;
-    }
 }
